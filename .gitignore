@@ -1,9 +1,107 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-/venv/
+# Django-specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+media/
+local_settings.py
+
+# Static files
+staticfiles/
+
+# Python Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging and build files
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs and temporary files
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+
+# Documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE-related files (PyCharm, VSCode, Spyder, etc.)
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Environment and configuration files
+celerybeat-schedule
+celerybeat.pid
+.dmypy.json
+.dmypy/
+.pyre/
+.pytype/
+.pdm.toml
+__pypackages__/
+
+# Specific to Python tooling
+.Pipfile
+.pdm.lock
+poetry.lock
+pyproject.toml
+
+# SageMath
+*.sage.py
+
+# Miscellaneous
+cython_debug/
+site/
