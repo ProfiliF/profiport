@@ -1,0 +1,1 @@
+web: gunicorn profiport.wsgi --log-file -heroku login
